@@ -18,11 +18,16 @@ public class Virus implements IMoveable {
     private int cor;
     private int velocidade = 1;
     
+    public Virus(){
+        
+    }
+    
     public Virus(int x , int y){
         this.x=x;
         this.y=y;
     }
     Random generator = new Random();
+    /**metodo mover implementado do IMoveable,se utiliza do generator para selecionar as opções do switch */
     @Override
     public void mover() {
         switch(generator.nextInt(3)){

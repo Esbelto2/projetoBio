@@ -11,7 +11,7 @@ package project;
  */
 public class CelulasOculares extends Celulas {
 
-    
+    /**contrutor que atribui 2 para o olhis*/
     public CelulasOculares(int x , int y){
         super(x,y);
         setCor(3);

@@ -10,6 +10,6 @@ package project;
  * @author ka-ro
  */
 public interface IMoveable {
-    
+    /**interface para leucocitos e virus*/
     public void mover();
 }

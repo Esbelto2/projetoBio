@@ -15,15 +15,17 @@ public abstract class Celulas {
     private int y;
     private int cor;
     
+    public Celulas (){
     
-    //construtor
+    }
+    /**construtor*/
     public Celulas(int x ,int y){
         this.x = x;
         this.y = y;
     }
     
     
-    //metodos
+    /**metodos*/
 
     public int getX() {
         return x;

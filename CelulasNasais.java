@@ -10,7 +10,7 @@ package project;
  * @author ka-ro
  */
 public class CelulasNasais extends Celulas{
-
+    /**contrutor que atribui 2 para o nariz*/
     public CelulasNasais(int x , int y){
         super(x,y);
         setCor(2);

@@ -10,7 +10,7 @@ package project;
  * @author ka-ro
  */
 public class CelulasBoca extends Celulas {
-
+    /**contrutor que atribui 2 para a boca*/
     public CelulasBoca(int x , int y){
         super(x,y);
         setCor(4);
